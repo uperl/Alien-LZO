@@ -2,6 +2,21 @@ use alienfile;
 
 plugin 'PkgConfig' => 'lzo2';
 
+plugin 'Probe::CBuilder' => (
+  libs => '-llzo2',
+  program => q{
+#include <lzo/lzoconf.h>
+#include <lzo/lzo1x.h>
+int main(int argc, char *argv[])
+{
+  if(lzo_init() == LZO_E_OK)
+    return 0;
+  else
+    return 1;
+}
+}
+);
+
 share {
 
   plugin Download => (
