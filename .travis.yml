@@ -16,3 +16,9 @@ perl:
 
 script:
   - dzil test -v
+
+env:
+  - ALIEN_INSTALL_TYPE=share
+  - ALIEN_INSTALL_TYPE=system
+
+
