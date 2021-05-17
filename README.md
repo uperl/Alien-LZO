@@ -1,4 +1,4 @@
-# Alien::LZO ![linux](https://github.com/plicease/Alien-LZO/workflows/linux/badge.svg)
+# Alien::LZO ![linux](https://github.com/uperl/Alien-LZO/workflows/linux/badge.svg)
 
 Build and make available LZO
 
