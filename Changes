@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Use https to fetch more securely (gh#5)
 
 0.02      2017-03-28 14:39:08 -0400
   - Documentation
