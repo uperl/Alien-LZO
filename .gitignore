@@ -1,2 +1,4 @@
 /Alien-LZO-*
 /.build
+*.old
+*.orig
